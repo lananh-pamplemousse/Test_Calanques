@@ -1,0 +1,16 @@
+méthode
+  > propre à une classe (string, fixnum, float, etc.)
+  > objet ESPACE POINT méthode
+fonction
+  > général, ne concerne pas forcément une classe
+
+Un "="    > affectation
+Deux "==" > test
+
+puts
+  > superficiel, juste au niveau de l'affichage
+return
+  > transformation profonde (au-delà de l'affichage)
+  > par défaut les méthodes retournent la dernière ligne
+
+La définition d'une méthode se fait en cercle fermé, et ne fait référence qu'à elle même. Si un nom de variable est le même que celui d'une variable définie à l'extérieur, elles n'ont pas de lien.
