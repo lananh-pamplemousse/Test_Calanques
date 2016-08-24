@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+/* étoile "*" veut dire "s'applique à tout"*/
+/*raccourci pour mettre en commentaire : sélection + cmd+shift+/
+*/
+
+body {
+  font-family: "Avenir", "Helvetica Neue", "Arial", "sans serif";
+  text-align: center;
+  color: #484848;
+  margin: 0px;
+  padding: 0px;
+}
+
+h4{
+  margin-top: 100px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.masthead{
+  background-image: url("images/masthead.png");
+  background-size: cover;
+  padding:100px;
+  color:white;
+}
+
+  .masthead h1 {
+    margin-top: 100px;
+    font-size: 60px
+  }
+
+.masthead_sub{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logo {
+  text-align: left;
+  margin-top: 0px;
+}
+
+.btn_revenus {
+  background-color: #007A87;
+  padding: 10px 60px 10px 60px;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+  /*border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #006671;*/
+  border-bottom: solid 3px #006671;
+}
+
+.btn_revenus:hover {
+  background-color: #006671
+}
+
+.btn_destinations {
+  padding: 10px 60px 10px 60px;
+  color: #484848;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 3px;
+  border: solid 1px #cacccd;
+}
+
+.host {
+  text-align: left;
+}
+
+.destination {
+
+}
+
+.Lille {
+  background-image: url("https://journeyaroundtheglobe.files.wordpress.com/2013/06/img_2305.jpg");
+}

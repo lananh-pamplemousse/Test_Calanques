@@ -8,14 +8,12 @@ puts
 puts "strings".capitalize
 first_name = "louis"
 last_name = "chavane"
-
-
 def concatenate (first_name, last_name)
   puts "#{first_name.capitalize} #{last_name.capitalize}"
 end
 
-
 concatenate(first_name, last_name)
+
 puts "1" + first_name.lstrip
 
 def get_rid_of_surrounding_whitespaces(a_string)
@@ -26,14 +24,15 @@ end
 
 puts get_rid_of_surrounding_whitespaces(" louis ")
 
+puts
+puts "bouteille".capitalize
+
 def belongs_to?(a_string, a_word)
   # TODO: return true if a_string contains a_word
   # example: belongs_to?("hey jude", "jude") => true
   a_string.include? a_word
 end
 
-puts
-puts "bouteille".capitalize
 puts belongs_to?("bouteille", "ille")
 puts belongs_to?("bouteille", "ile")
 
@@ -52,9 +51,7 @@ puts "divisible_by_two".capitalize
 puts divisible_by_two?(3)
 puts divisible_by_two?(4)
 
-day = 28
-month = 1
-year = 1985
-date =
+def dob_into_days (year, month, day)
+
 
 

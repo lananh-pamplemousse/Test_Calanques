@@ -14,3 +14,8 @@ return
   > par défaut les méthodes retournent la dernière ligne
 
 La définition d'une méthode se fait en cercle fermé, et ne fait référence qu'à elle même. Si un nom de variable est le même que celui d'une variable définie à l'extérieur, elles n'ont pas de lien.
+Appel de méthodes : pour valider des choses.
+
+Guillemets
+  doubles
+  simples
